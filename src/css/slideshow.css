@@ -1,3 +1,5 @@
+@import "react-slideshow-image/dist/styles.css";
+
 .slider {
     margin: 0 auto;
     padding: 100px 0;

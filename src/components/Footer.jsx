@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <div className="footer-info">
                 <img src={logo} />
-                 <p>©2021 by Daniela Reijs.</p>
+                <p>©2021 by Daniela Reijs.</p>
             </div> 
             <div className="footer-links">
                 <a href="https://www.instagram.com/espenhmusic/" target="_blank" rel="noreferrer"><AiOutlineInstagram /></a>
@@ -20,3 +20,4 @@ const Footer = () => {
 }
 
 export default Footer
+ 

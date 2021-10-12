@@ -33,5 +33,27 @@ footer {
     color: rgb(150,150,150)
   }
   
-  
-  
+  @media only screen and (max-width: 450px){
+    footer {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 0 auto;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    footer img {
+      margin: 0;
+    }
+
+    /* footer {
+      padding: 0 15px;
+    }
+     footer p {
+       margin: 0 5px;
+     }
+    
+     footer img{
+       width: 170px;
+     } */
+  }
